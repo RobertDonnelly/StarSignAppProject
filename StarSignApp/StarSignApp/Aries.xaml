@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StarSignApp.Aries">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Aries"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize = "30"/>
+            <Image Margin="3,30, 3,30"
+                   x:Name="imageAries"
+                   Source="StarSignApp.NewFolder.aries.png"/>
+            <Label Text="Fire sign; ruled by Mars. &#10;
+Courageous, energetic, willful, commanding, leading. &#10; Often leads when following would be best course of action.
+                   &#10;
+                   &#10;
+                   &#10;"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             XAlign="Center"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

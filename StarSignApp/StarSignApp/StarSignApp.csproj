@@ -1,0 +1,87 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="aquarius.png" />
+    <None Remove="aries.png" />
+    <None Remove="cancer.jpg" />
+    <None Remove="capricorn.png" />
+    <None Remove="gemini.jpg" />
+    <None Remove="leo.jpg" />
+    <None Remove="libra.jpg" />
+    <None Remove="pisces.jpg" />
+    <None Remove="sagittarius.jpg" />
+    <None Remove="scorpio.png" />
+    <None Remove="taurus.jpg" />
+    <None Remove="virgo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="NewFolder\aquarius.png" />
+    <EmbeddedResource Include="NewFolder\aries.png" />
+    <EmbeddedResource Include="NewFolder\cancer.jpg" />
+    <EmbeddedResource Include="NewFolder\capricorn.png" />
+    <EmbeddedResource Include="NewFolder\gemini.jpg" />
+    <EmbeddedResource Include="NewFolder\leo.jpg" />
+    <EmbeddedResource Include="NewFolder\libra.jpg" />
+    <EmbeddedResource Include="NewFolder\pisces.jpg" />
+    <EmbeddedResource Include="NewFolder\sagittarius.jpg" />
+    <EmbeddedResource Include="NewFolder\scorpio.png" />
+    <EmbeddedResource Include="NewFolder\taurus.jpg" />
+    <EmbeddedResource Include="NewFolder\virgo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Aquarius.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Aries.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Cancer.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Capricorn.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Gemini.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Leo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Libra.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pisces.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Sagittarius.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Scorpio.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Taurus.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Virgo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

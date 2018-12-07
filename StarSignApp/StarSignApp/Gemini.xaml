@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StarSignApp.Gemini">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Gemini"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize = "30"/>
+            <Image Margin="3,30, 0,00"
+                   Source="gemini.jpg"/>
+            <Label Text="Air sign: ruled by Mercury &#10; 
+Cerebral, chatty, loves learning and education, charming, and adventurous.
+                   &#10;
+                   &#10;
+                   &#10;"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             XAlign="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

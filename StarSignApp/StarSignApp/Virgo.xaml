@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StarSignApp.Virgo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Virgo"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize = "30"/>
+            <Image Margin="3,30, 0,00"
+                   Source="virgo.png"/>
+            <Label Text="Earth sign: ruled by Mercury. &#10;
+Particular, logical, practical, sense of duty, critical."
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             XAlign="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

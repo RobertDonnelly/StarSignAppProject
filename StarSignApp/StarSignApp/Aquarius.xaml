@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StarSignApp.Aquarius">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Aquarius "
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize = "30"/>
+            <Image Margin="3,30, 0,00"
+                   Source="aquarius.png"/>
+            <Label Text="Air sign; ruled by Uranus.&#10;
+Forward thinking, communicative, people oriented, stubborn, generous,&#10; and dedicated.
+                   &#10;
+                   &#10;
+                   &#10; "           
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             XAlign="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

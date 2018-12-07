@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StarSignApp.Capricorn">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Capricorn "
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize = "30"/>
+            <Image Margin="3,30, 0,00"
+                   Source="capricorn.png"/>
+            <Label Text="Earth sign: ruled by Saturn. &#10;
+Timeless, driven, calculating, ambitious."
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             XAlign="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
