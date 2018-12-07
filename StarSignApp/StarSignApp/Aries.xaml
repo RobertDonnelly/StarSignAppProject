@@ -4,11 +4,14 @@
              x:Class="StarSignApp.Aries">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Aries"
+            <Label Text="Aries &#10; March 20 – April 20"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
+                XAlign="Center"
                 FontSize = "30"/>
-            <Image Margin="3,30, 3,30"
+            <Image Margin="0.1,0.1,0.1,0.1"
+                   WidthRequest="200"
+                   HeightRequest="200"
                    x:Name="imageAries"
                    Source="StarSignApp.NewFolder.aries.png"/>
             <Label Text="Fire sign; ruled by Mars. &#10;

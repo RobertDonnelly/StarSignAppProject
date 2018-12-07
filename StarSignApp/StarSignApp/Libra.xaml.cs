@@ -12,9 +12,21 @@ namespace StarSignApp
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Libra : ContentPage
 	{
-		public Libra ()
-		{
-			InitializeComponent ();
-		}
-	}
+        public Libra()
+        {
+            InitializeComponent();
+            AddImagesToPage();
+
+        }
+
+        private void AddImagesToPage()
+        {
+            var assembly = typeof(MainPage);
+
+
+            string strFilename = "StarSignApp.NewFolder.libra.jpg";
+
+            imageLibra.Source = ImageSource.FromResource(strFilename, assembly);
+        }
+    }
 }

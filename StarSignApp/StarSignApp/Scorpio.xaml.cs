@@ -15,6 +15,14 @@ namespace StarSignApp
 		public Scorpio ()
 		{
 			InitializeComponent ();
+            AddImagesToPage();
 		}
-	}
+        private void AddImagesToPage()
+        {
+            var assembly = typeof(MainPage);
+
+            string strFilename = "StarSignApp.NewFolder.scorpio.png";
+            imageScorpio.Source = ImageSource.FromResource(strFilename, assembly);
+        }
+    }
 }

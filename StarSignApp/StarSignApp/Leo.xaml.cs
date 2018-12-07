@@ -15,6 +15,18 @@ namespace StarSignApp
 		public Leo ()
 		{
 			InitializeComponent ();
+            AddImagesToPage();
 		}
-	}
+
+        private void AddImagesToPage()
+        {
+            var assembly = typeof(MainPage);
+
+
+            string strFilename = "StarSignApp.NewFolder.leo.jpg";
+
+            imageLeo.Source = ImageSource.FromResource(strFilename, assembly);
+        }
+    }
+
 }

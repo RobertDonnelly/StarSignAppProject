@@ -15,6 +15,16 @@ namespace StarSignApp
 		public Aquarius ()
 		{
 			InitializeComponent ();
-		}
-	}
+            AddImagesToPage();
+
+        }
+        private void AddImagesToPage()
+        {
+            var assembly = typeof(MainPage);
+
+            string strFilename = "StarSignApp.NewFolder.aquarius.png";
+            imageAquarius.Source = ImageSource.FromResource(strFilename, assembly);
+
+        }
+    }
 }

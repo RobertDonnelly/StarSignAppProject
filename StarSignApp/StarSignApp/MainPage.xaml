@@ -9,7 +9,15 @@
         <Label Text="Welcome to my Star Sign App" 
            HorizontalOptions="Center"
            VerticalOptions="Center" />
-        <Button x:Name="btnLogin" Text="Click to Start" Clicked="btnLogin_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+        <Button x:Name="btnLogin" Text="Click to Start" 
+                Clicked="btnLogin_Clicked" 
+                HorizontalOptions="CenterAndExpand" 
+                VerticalOptions="Center"/>
+        <Image Margin="0.1,0.1,0.1,0.1"
+              Aspect="AspectFill"
+               x:Name="imageStars"
+               Source="StarSignApp.NewFolder.stars.png"/>
     </StackLayout>
+        
 
 </ContentPage>

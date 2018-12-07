@@ -8,8 +8,11 @@
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 FontSize = "30"/>
-            <Image Margin="3,30, 0,00"
-                   Source="gemini.jpg"/>
+            <Image Margin="0.1,0.1,0.1,0.1"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   x:Name="imageGemini"
+                   Source="StarSignApp.NewFolder.gemini.jpg"/>
             <Label Text="Air sign: ruled by Mercury &#10; 
 Cerebral, chatty, loves learning and education, charming, and adventurous.
                    &#10;

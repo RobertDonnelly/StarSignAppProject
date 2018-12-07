@@ -8,8 +8,11 @@
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 FontSize = "30"/>
-            <Image Margin="3,30, 0,00"
-                   Source="capricorn.png"/>
+            <Image Margin="0.1,0.1,0.1,0.1"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   x:Name="imageCapricorn"
+                   Source="StarSignApp.NewFolder.capricorn.png"/>
             <Label Text="Earth sign: ruled by Saturn. &#10;
 Timeless, driven, calculating, ambitious."
              HorizontalOptions="Center"

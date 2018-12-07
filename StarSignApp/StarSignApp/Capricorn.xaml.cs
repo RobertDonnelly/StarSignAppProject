@@ -15,6 +15,17 @@ namespace StarSignApp
 		public Capricorn ()
 		{
 			InitializeComponent ();
-		}
-	}
+            AddImagesToPage();
+
+        }
+        private void AddImagesToPage()
+        {
+            var assembly = typeof(MainPage);
+
+
+            string strFilename = "StarSignApp.NewFolder.capricorn.png";
+
+            imageCapricorn.Source = ImageSource.FromResource(strFilename, assembly);
+        }
+    }
 }

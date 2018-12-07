@@ -8,8 +8,11 @@
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 FontSize = "30"/>
-            <Image Margin="3,30, 0,00"
-                   Source="taurus.jpg"/>
+            <Image Margin="0.1,0.1,0.1,0.1"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   x:Name="imageTaurus"
+                   Source="StarSignApp.NewFolder.taurus.jpg"/>
             <Label Text="Earth sign: ruled by Venus.
 Pleasure seeking, loves control, dependable, grounded, provokes slowly,&#10; and highly sensual in nature."
              HorizontalOptions="Center"

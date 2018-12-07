@@ -8,8 +8,11 @@
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 FontSize = "30"/>
-            <Image Margin="3,30, 0,00"
-                   Source="sagittarius.jpg"/>
+            <Image Margin="0.1,0.1,0.1,0.1"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   x:Name="imageSagittarius"
+                   Source="StarSignApp.NewFolder.sagittarius.jpg"/>
             <Label Text="Fire sign: ruled by Jupiter. &#10;
 Happy, absent minded, creative, adventurous."
              HorizontalOptions="Center"

@@ -15,6 +15,14 @@ namespace StarSignApp
 		public Taurus ()
 		{
 			InitializeComponent ();
+            AddImagesToPage();
 		}
-	}
+        private void AddImagesToPage()
+        {
+            var assembly = typeof(MainPage);
+
+            string strFilename = "StarSignApp.NewFolder.taurus.jpg";
+            imageTaurus.Source = ImageSource.FromResource(strFilename, assembly);
+        }
+    }
 }

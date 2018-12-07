@@ -8,8 +8,11 @@
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 FontSize = "30"/>
-            <Image Margin="3,30, 0,00"
-                   Source="leo.jpg"/>
+            <Image Margin="0.1,0.1,0.1,0.1"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   x:Name="imageLeo"
+                   Source="StarSignApp.NewFolder.leo.jpg"/>
             <Label Text="Fire sign: ruled by the Sun.  &#10;
 Generous, organized, protective, beautiful."
              HorizontalOptions="Center"

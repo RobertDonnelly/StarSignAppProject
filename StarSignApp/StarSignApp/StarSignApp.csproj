@@ -17,6 +17,7 @@
     <None Remove="gemini.jpg" />
     <None Remove="leo.jpg" />
     <None Remove="libra.jpg" />
+    <None Remove="NewFolder\stars.png" />
     <None Remove="pisces.jpg" />
     <None Remove="sagittarius.jpg" />
     <None Remove="scorpio.png" />
@@ -35,6 +36,7 @@
     <EmbeddedResource Include="NewFolder\pisces.jpg" />
     <EmbeddedResource Include="NewFolder\sagittarius.jpg" />
     <EmbeddedResource Include="NewFolder\scorpio.png" />
+    <EmbeddedResource Include="NewFolder\stars.png" />
     <EmbeddedResource Include="NewFolder\taurus.jpg" />
     <EmbeddedResource Include="NewFolder\virgo.png" />
   </ItemGroup>

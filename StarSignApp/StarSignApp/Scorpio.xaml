@@ -8,8 +8,11 @@
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 FontSize = "30"/>
-            <Image Margin="3,30, 0,00"
-                   Source="scorpio.png"/>
+            <Image Margin="0.1,0.1,0.1,0.1"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   x:Name="imageScorpio"
+                   Source="StarSignApp.NewFolder.scorpio.png"/>
             <Label Text="Water sign: ruled by Pluto &#10;
 Passionate, exacting, loves extremes, combative, reflective."
              HorizontalOptions="Center"

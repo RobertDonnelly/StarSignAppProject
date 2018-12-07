@@ -15,6 +15,14 @@ namespace StarSignApp
 		public Virgo ()
 		{
 			InitializeComponent ();
+            AddImagesToPage();
 		}
-	}
+        private void AddImagesToPage()
+        {
+            var assembly = typeof(MainPage);
+
+            string strFilename = "StarSignApp.NewFolder.virgo.png";
+            imageVirgo.Source = ImageSource.FromResource(strFilename, assembly);
+        }
+    }
 }

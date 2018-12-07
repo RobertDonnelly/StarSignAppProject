@@ -8,10 +8,13 @@
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 FontSize = "30"/>
-            <Image Margin="3,30, 0,00"
-                   Source="cancer.jpg"/>
+            <Image Margin="0.1,0.1,0.1,0.1"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   x:Name="imageCancer"
+                   Source="StarSignApp.NewFolder.cancer.jpg"/>
             <Label Text="A water sign: ruled by the Moon.
-&#10; Emotional, group oriented, seeks security, family."
+                   &#10; Emotional, group oriented, seeks security, family."
              HorizontalOptions="Center"
              VerticalOptions="Center"
              XAlign="Center"/>

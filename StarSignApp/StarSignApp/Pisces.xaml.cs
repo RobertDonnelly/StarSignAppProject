@@ -15,6 +15,16 @@ namespace StarSignApp
 		public Pisces ()
 		{
 			InitializeComponent ();
+            AddImagesToPage();
 		}
-	}
+        private void AddImagesToPage()
+        {
+            var assembly = typeof(MainPage);
+
+
+            string strFilename = "StarSignApp.NewFolder.pisces.jpg";
+
+            imagePisces.Source = ImageSource.FromResource(strFilename, assembly);
+        }
+    }
 }

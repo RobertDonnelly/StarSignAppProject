@@ -15,6 +15,15 @@ namespace StarSignApp
 		public Cancer ()
 		{
 			InitializeComponent ();
+            AddImagesToPage();
 		}
-	}
+
+        private void AddImagesToPage()
+        {
+            var assembly = typeof(MainPage);
+
+            string strFilename = "StarSignApp.NewFolder.cancer.jpg";
+            imageCancer.Source = ImageSource.FromResource(strFilename, assembly);
+        }
+    }
 }

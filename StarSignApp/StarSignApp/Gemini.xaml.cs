@@ -15,6 +15,15 @@ namespace StarSignApp
 		public Gemini ()
 		{
 			InitializeComponent ();
+            AddImagesToPage();
 		}
-	}
+
+        private void AddImagesToPage()
+        {
+            var assembly = typeof(MainPage);
+
+            string strFilename = "StarSignApp.NewFolder.gemini.jpg";
+            imageGemini.Source = ImageSource.FromResource(strFilename, assembly);
+        }
+    }
 }

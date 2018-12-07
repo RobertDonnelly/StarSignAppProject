@@ -8,8 +8,11 @@
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 FontSize = "30"/>
-            <Image Margin="3,30, 0,00"
-                   Source="virgo.png"/>
+            <Image Margin="0.1,0.1,0.1,0.1"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   x:Name="imageVirgo"
+                   Source="StarSignApp.NewFolder.virgo.png"/>
             <Label Text="Earth sign: ruled by Mercury. &#10;
 Particular, logical, practical, sense of duty, critical."
              HorizontalOptions="Center"
