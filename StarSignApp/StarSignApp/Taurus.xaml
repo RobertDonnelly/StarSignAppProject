@@ -4,9 +4,10 @@
              x:Class="StarSignApp.Taurus">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Taurus"
+            <Label Text="Taurus &#10; April 20 – May 21"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
+                XAlign="Center"
                 FontSize = "30"/>
             <Image Margin="0.1,0.1,0.1,0.1"
                    WidthRequest="200"

@@ -4,9 +4,10 @@
              x:Class="StarSignApp.Scorpio">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Scorpio"
+            <Label Text="Scorpio &#10; October 23 – November 22"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
+                XAlign="Center"
                 FontSize = "30"/>
             <Image Margin="0.1,0.1,0.1,0.1"
                    WidthRequest="200"

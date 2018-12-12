@@ -23,6 +23,7 @@ namespace StarSignApp
             var assembly = typeof(MainPage);
 
             string strFilename = "StarSignApp.NewFolder.aquarius.png";
+
             imageAquarius.Source = ImageSource.FromResource(strFilename, assembly);
 
         }

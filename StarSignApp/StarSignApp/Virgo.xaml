@@ -4,9 +4,10 @@
              x:Class="StarSignApp.Virgo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Virgo"
+            <Label Text="Virgo &#10; August 23 – September 23"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
+                XAlign="Center"
                 FontSize = "30"/>
             <Image Margin="0.1,0.1,0.1,0.1"
                    WidthRequest="200"

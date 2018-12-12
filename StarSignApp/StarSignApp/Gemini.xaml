@@ -4,9 +4,10 @@
              x:Class="StarSignApp.Gemini">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Gemini"
+            <Label Text="Gemini &#10; May 21 – June 21"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
+                XAlign="Center"
                 FontSize = "30"/>
             <Image Margin="0.1,0.1,0.1,0.1"
                    WidthRequest="200"

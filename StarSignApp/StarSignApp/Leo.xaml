@@ -4,9 +4,10 @@
              x:Class="StarSignApp.Leo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Leo"
+            <Label Text="Leo &#10; July 22 – August 23"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
+                XAlign="Center"
                 FontSize = "30"/>
             <Image Margin="0.1,0.1,0.1,0.1"
                    WidthRequest="200"

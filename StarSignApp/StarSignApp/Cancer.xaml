@@ -4,9 +4,10 @@
              x:Class="StarSignApp.Cancer">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Cancer"
+            <Label Text="Cancer &#10; June 21 – July 22"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
+                XAlign="Center"
                 FontSize = "30"/>
             <Image Margin="0.1,0.1,0.1,0.1"
                    WidthRequest="200"

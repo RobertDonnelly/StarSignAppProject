@@ -4,9 +4,10 @@
              x:Class="StarSignApp.Capricorn">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Capricorn "
+            <Label Text="Capricorn &#10; December 21 – January 20"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
+                XAlign="Center"   
                 FontSize = "30"/>
             <Image Margin="0.1,0.1,0.1,0.1"
                    WidthRequest="200"

@@ -26,6 +26,7 @@ namespace StarSignApp
 
             string strFilename = "StarSignApp.NewFolder.stars.png";
 
+
             imageStars.Source = ImageSource.FromResource(strFilename, assembly);
         }
     }
