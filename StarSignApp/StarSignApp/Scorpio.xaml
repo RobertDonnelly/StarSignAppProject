@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="StarSignApp.Scorpio">
+             x:Class="StarSignApp.Scorpio"
+             BackgroundColor="Violet">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Scorpio &#10; October 23 – November 22"

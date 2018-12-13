@@ -2,22 +2,52 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:StarSignApp"
-             x:Class="StarSignApp.MainPage">
+             x:Class="StarSignApp.MainPage"
+             BackgroundColor="DarkCyan">
 
+    
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to my Star Sign App" 
+        <Label Text="Welcome to my Star Sign App 
+               &#10; Please enter your Birth Day and Birth Month!" 
            HorizontalOptions="Center"
-           VerticalOptions="Center" />
-        <Button x:Name="btnLogin" Text="Click to Start" 
+           VerticalOptions="Center"
+               XAlign="Center"/>
+
+        <Entry x:Name="EntryDay"
+               Placeholder="Day" 
+               MaxLength="2" 
+               Keyboard="Numeric" 
+               TextColor="DarkCyan"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        
+        <Entry x:Name="EntryMonth" 
+               Placeholder="Month" 
+               MaxLength="2" 
+               Keyboard="Numeric" 
+               TextColor="DarkCyan"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <Button x:Name="btnStarSign" Text="Find out your StarSign !" 
+                Clicked="btnStarSign_Clicked" 
+                HorizontalOptions="CenterAndExpand" 
+                VerticalOptions="Center"
+                BackgroundColor="LightSalmon"/>
+        <Label x:Name="yourSign" 
+               TextColor="Black"
+               HorizontalOptions="Center" 
+               VerticalOptions="Center"
+               XAlign="Center"/>
+        <Button x:Name="btnLogin" Text="Click to See Star Signs !" 
                 Clicked="btnLogin_Clicked" 
                 HorizontalOptions="CenterAndExpand" 
-                VerticalOptions="Center"/>
+                VerticalOptions="Center"
+                BackgroundColor="LightSalmon"/>
         <Image Margin="0.1,0.1,0.1,0.1"
               Aspect="AspectFill"
                x:Name="imageStars"
                Source="StarSignApp.NewFolder.stars.png"/>
     </StackLayout>
-        
 
 </ContentPage>

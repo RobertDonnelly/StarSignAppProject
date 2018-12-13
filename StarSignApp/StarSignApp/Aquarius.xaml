@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="StarSignApp.Aquarius">
+             x:Class="StarSignApp.Aquarius"
+             BackgroundColor="DarkCyan">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Aquarius &#10; January 20 – February 18"
+                TextColor="Black"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 XAlign="Center"
@@ -18,7 +20,7 @@
 Forward thinking, communicative, people oriented, stubborn, generous,&#10; and dedicated.
                    &#10;
                    &#10; "
-                   TextColor="Firebrick"
+                TextColor="Black"
              HorizontalOptions="Center"
              VerticalOptions="Center"
              XAlign="Center"/>
@@ -27,11 +29,9 @@ Forward thinking, communicative, people oriented, stubborn, generous,&#10; and d
  They are able to see without prejudice, on both sides, which makes them people who can easily solve problems. &#10;  
  Although they can easily adapt to the energy that surrounds them, Aquarius-born have a deep need to be some time alone and away from everything, in order to restore power.&#10; 
  People born under the Aquarius sign, look at the world as a place full of possibilities."  
-                  XAlign="Center"/>
-            <Image Margin="0.1,0.1,0.1,0.1"
-              Aspect="AspectFill"
-               x:Name="imageStars"
-               Source="StarSignApp.NewFolder.stars.png"/>
+                  XAlign="Center"
+                TextColor="Black"/>
+     
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

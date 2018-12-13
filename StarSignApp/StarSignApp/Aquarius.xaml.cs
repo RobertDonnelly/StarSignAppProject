@@ -16,7 +16,6 @@ namespace StarSignApp
 		{
 			InitializeComponent ();
             AddImagesToPage();
-
         }
         private void AddImagesToPage()
         {
