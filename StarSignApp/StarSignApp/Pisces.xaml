@@ -4,7 +4,8 @@
              x:Class="StarSignApp.Pisces"
              BackgroundColor="LightSalmon">
     <ContentPage.Content>
-        <StackLayout>
+        <ScrollView>
+            <StackLayout>
             <Label Text="Pisces &#10; February 18 – March 20"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
@@ -17,11 +18,23 @@
                    x:Name="imagePisces"
                    Source="StarSignApp.NewFolder.pisces.jpg"/>
             <Label Text=" Water sign: ruled by Neptune. &#10;
-Likeable, energetic, passionate, sensitive."
+Likeable, energetic, passionate, sensitive.
+                   &#10;
+                   &#10;"
              HorizontalOptions="Center"
              VerticalOptions="Center"
              XAlign="Center"
              TextColor="Black"/>
+            <Label Text="Pisces are very friendly, so they often find themselves in a company of very different people. &#10;
+                   Pisces are selfless, they are always willing to help others, without hoping to get anything back. &#10;
+                   Pisces are characterized by empathy and expressed emotional capacity. &#10;
+                   People born under the Pisces sign have an intuitive understanding of the life cycle and thus achieve the best emotional relationship with other beings. &#10; 
+                   Pisces-born are known by their wisdom, but under the influence of Uranus, &#10; 
+                   Pisces sometimes can take the role of a martyr, in order to catch the attention. &#10; 
+                   Pisces are never judgmental and always forgiving. They are also known to be most tolerant of all the zodiac signs."  
+                  XAlign="Center"
+                TextColor="Black"/>
         </StackLayout>
+           </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -15,18 +15,29 @@ namespace StarSignApp
 		public Aries ()
 		{
 			InitializeComponent ();
-            AddImagesToPage();
+            AddImage1ToPage();
+            AddImage2ToPage();
 
 		}
 
-        private void AddImagesToPage()
+        private void AddImage2ToPage()
         {
             var assembly = typeof(MainPage);
-          
 
-            string strFilename = "StarSignApp.NewFolder.aries.png";
+            string strFilename2 = "StarSignApp.NewFolder.davinci.jpg";
 
-            imageAries.Source = ImageSource.FromResource(strFilename, assembly);
+            imageVinci.Source = ImageSource.FromResource(strFilename2, assembly);
+
+        }
+
+        private void AddImage1ToPage()
+        {
+            var assembly = typeof(MainPage);
+
+            string strFilename1 = "StarSignApp.NewFolder.aries.png";
+
+            imageAries.Source = ImageSource.FromResource(strFilename1, assembly);
+
         }
     }
 }

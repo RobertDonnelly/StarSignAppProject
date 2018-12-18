@@ -43,11 +43,11 @@ namespace StarSignApp
             //ARIES
             else if (month == 3 && day > 20 && day <= 31)
             {
-                yourSign.Text = "You Are a Aries!";
+                yourSign.Text = "You Are an Aries!";
             }
             else if (month == 4 && day < 20)
             {
-                yourSign.Text = "You Are a Aries!";
+                yourSign.Text = "You Are an Aries!";
             }
             //TAURUS
             else if (month == 4 && day < 31 && day >= 21)
@@ -124,7 +124,7 @@ namespace StarSignApp
             //CAPRICORN
             else if(month == 12 && day >=22 && day <=31)
             {
-                yourSign.Text = "You Are a Capricprn!";
+                yourSign.Text = "You Are a Capricorn!";
             }
             else if(month == 1 && day <20)
             {

@@ -4,8 +4,7 @@
              xmlns:local="clr-namespace:StarSignApp"
              x:Class="StarSignApp.HomePage">
 
-    <local:Aquarius Title="Aquarius"/>
-    <local:Pisces Title="Pisces"/>
+    
     <local:Aries Title="Aries"/>
     <local:Taurus Title="Taurus"/>
     <local:Gemini Title="Gemini"/>
@@ -16,5 +15,7 @@
     <local:Scorpio Title="Scorpio"/>
     <local:Sagittarius Title="Sagittarius"/>
     <local:Capricorn Title="Capricorn"/>
+    <local:Aquarius Title="Aquarius"/>
+    <local:Pisces Title="Pisces"/>
 
 </TabbedPage> 

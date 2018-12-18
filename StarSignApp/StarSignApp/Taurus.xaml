@@ -4,6 +4,7 @@
              x:Class="StarSignApp.Taurus"
              BackgroundColor="Chocolate">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
             <Label Text="Taurus &#10; April 20 – May 21"
                 VerticalOptions="Start" 
@@ -16,10 +17,22 @@
                    x:Name="imageTaurus"
                    Source="StarSignApp.NewFolder.taurus.jpg"/>
             <Label Text="Earth sign: ruled by Venus.
-Pleasure seeking, loves control, dependable, grounded, provokes slowly,&#10; and highly sensual in nature."
+Pleasure seeking, loves control, dependable, grounded, provokes slowly,&#10; and highly sensual in nature.
+                   &#10;
+                   &#10;"
              HorizontalOptions="Center"
              VerticalOptions="Center"
              XAlign="Center"/>
+            <Label Text="Tarus's symbol is the bull because this sign's characteristic is to be peaceful and methodical.  &#10;
+                   This sign is often very deliberate in their actions, relaxed, and enjoys all of the sensual pleasures that abound in this dimension.  &#10;
+                   Food, drink, sex, luxury, are all sought after by the typical taruean.  &#10;
+                   Because this sign loves luxury they are willing to work hard to obtain it.  &#10;
+                   They are slow to anger, but once disturbed it can be volatile. &#10;
+                   Taurus signs look for stability in their lives and in their partners and co-workers.  &#10;
+                   Taurus people are not in a hurry, typically, and it can take them many years to decide what it is that they would like to do for a living, or where they'd like to go on vacation.  &#10;
+                   Many of this sign prefer to live in the country as they are drawn to the earth and the natural world.  &#10;
+                   Earth signs tend to have solid, reputable natures, which coincides with the Earth." />
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
