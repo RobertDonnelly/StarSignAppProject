@@ -12,23 +12,25 @@
                &#10; Please enter your Birth Day and Birth Month!" 
            HorizontalOptions="Center"
            VerticalOptions="Center"
+               FontSize="Large"
                XAlign="Center"/>
 
         <Entry x:Name="EntryDay"
                Placeholder="Day" 
                MaxLength="2" 
                Keyboard="Numeric" 
-               TextColor="DarkCyan"
                HorizontalOptions="Center"
-               VerticalOptions="Center"/>
+               VerticalOptions="Center"
+               BackgroundColor="LightSalmon"/>
         
         <Entry x:Name="EntryMonth" 
                Placeholder="Month" 
                MaxLength="2" 
                Keyboard="Numeric" 
-               TextColor="DarkCyan"
                HorizontalOptions="Center"
-               VerticalOptions="Center"/>
+               VerticalOptions="Center"
+               BackgroundColor="LightSalmon"/>
+        
         <Button x:Name="btnStarSign" Text="Find out your StarSign !" 
                 Clicked="btnStarSign_Clicked" 
                 HorizontalOptions="CenterAndExpand" 
@@ -38,7 +40,8 @@
                TextColor="Black"
                HorizontalOptions="Center" 
                VerticalOptions="Center"
-               XAlign="Center"/>
+               XAlign="Center"
+               FontSize="Large"/>
         <Button x:Name="btnLogin" Text="Click to See Star Signs !" 
                 Clicked="btnLogin_Clicked" 
                 HorizontalOptions="CenterAndExpand" 

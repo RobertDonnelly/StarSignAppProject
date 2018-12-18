@@ -110,7 +110,7 @@ namespace StarSignApp
             }
             else if (month == 11 && day < 22)
             {
-                yourSign.Text = "You Are a Scorio!";
+                yourSign.Text = "You Are a Scorpio!";
             }
             //SAGITTARIUS
             else if (month == 11 && day >= 22 && day <= 30)
