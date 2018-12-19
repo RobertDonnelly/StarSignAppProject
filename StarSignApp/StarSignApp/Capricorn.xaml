@@ -4,6 +4,7 @@
              x:Class="StarSignApp.Capricorn"
              BackgroundColor="SkyBlue">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
             <Label Text="Capricorn &#10; December 21 – January 20"
                 VerticalOptions="Start" 
@@ -16,10 +17,48 @@
                    x:Name="imageCapricorn"
                    Source="StarSignApp.NewFolder.capricorn.png"/>
             <Label Text="Earth sign: ruled by Saturn. &#10;
-Timeless, driven, calculating, ambitious."
+Timeless, driven, calculating, ambitious.&#10;&#10;"
              HorizontalOptions="Center"
              VerticalOptions="Center"
              XAlign="Center"/>
+
+            <Label Text="Smart, hardworking, and fully in control of their destiny, a Capricorn will always get what they set their mind to, &#10;
+             in both personal and professional life—no excuses. Capricorns may get a reputation as stubborn, &#10;
+             but they simply know what they want, and also know how they wish other people would behave.&#10;
+&#10;
+Natural rule-followers, Capricorns thrive on order and love strict rules, hierarchies, and set ways to do things. &#10;
+             Can a Capricorn think outside the box? Yes, they can, but they prefer when they have strict boundaries to constrain against—free reign can make them feel paralyzed by choice. &#10;
+             Capricorns are great at climbing the corporate ladder, and especially adept at making (and investing) money. &#10;
+             Capricorns love family, and put a lot of stock in traditions. &#10;
+             A Capricorn might stress themselves out trying to do everything perfectly—a Capricorn may feel like they must present a home-cooked meal every day, &#10;
+             and would never admit to doing drive-thru or takeout. &#10;
+             Capricorns believe presentation is everything, and their homes are usually Insta-worthy. &#10;
+             A Capricorn sometimes is overly focused on what things look like, instead of how things feel, &#10;
+             which could cause them to feel stifled and unhappy.&#10;
+&#10;
+Capricorn needs to find a firm sense of self beyond how others perceive them, &#10;
+             and recognize that racking up achievements is only one small part of their personality.&#10;
+&#10;
+Capricorns are loyal friends, and have a funny and sly sense of humor when you get to know them—it is fun drawing them out of their shells. &#10;
+             In love, Capricorn is a true partner, who is laser-focused on helping their partner find success and happiness. &#10;
+             A Capricorn will dive into a relationship like a job, and believes that hard work can help make a bond as strong as possible. &#10;
+             While sometimes a romantic conversation may veer toward feeling a bit like a board meeting, &#10;
+             especially with action items and improvement plans, but if you roll with it, they have a point: Your bond will be stronger.&#10;"
+                   
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             XAlign="Center"/>
+
+            <Image Margin="0.1,0.1,0.1,0.1"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   x:Name="imageTiger"
+                   Source="StarSignApp.NewFolder.woods.jpg"/>
+
+            <Label Text="&#10; Some Well known Figures who are Capricorn's include Tiger Woods, Stephen Hawking, Elivs Presley and Issac Newton. &#10;"
+                    XAlign="Center"/>
+            
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

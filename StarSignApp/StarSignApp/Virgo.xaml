@@ -4,22 +4,54 @@
              x:Class="StarSignApp.Virgo"
              BackgroundColor="Red">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
             <Label Text="Virgo &#10; August 23 – September 23"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 XAlign="Center"
-                FontSize = "30"/>
+                FontSize = "30"
+                TextColor="White"/>
+            
             <Image Margin="0.1,0.1,0.1,0.1"
                    WidthRequest="200"
                    HeightRequest="200"
                    x:Name="imageVirgo"
                    Source="StarSignApp.NewFolder.virgo.png"/>
+            
             <Label Text="Earth sign: ruled by Mercury. &#10;
-Particular, logical, practical, sense of duty, critical."
+Particular, logical, practical, sense of duty, critical.
+                   &#10;
+                   &#10;
+                   &#10;
+             Smart, sophisticated, and kind, Virgo gets the job done without complaining. Virgos are amazing friends, &#10;
+             always there to lend a hand and also lend advice. Practical Virgos are incredibly adept at big picture thinking, &#10;
+             and planning out their life, their vacations, and what they're going to do today isn't a drag it makes them feel in control and secure. &#10;
+             &#10;
+             Virgo has a rich inner life, and can sometimes seem shy at first meeting. A Virgo won't spill secrets right away, &#10;
+             and it's important to earn a Virgo's trust. But once you do, that Virgin will be a friend for life. &#10;
+             And if you think that you're dating a shy Virgo, trust that those walls will fall down in the bedroom. &#10;
+             One of the most passionate signs, Virgos specialize at connecting to their physicality, &#10;
+             and this earth sign loves and celebrates physical connection with their partner. &#10;
+             &#10;
+             Virgos expect perfection from themselves, and they may project those high standards on the other people in their life. &#10;
+             A Virgo hates when someone lets him or her down, even if it's minor and unavoidable, like a last-minute cancellation. &#10;
+             Virgos never want to disappoint the people in their lives, so they may spread themselves too thin put themselves last. &#10;"
              HorizontalOptions="Center"
              VerticalOptions="Center"
-             XAlign="Center"/>
-        </StackLayout>
+             XAlign="Center"
+             TextColor="White"/>
+
+                <Image Margin="0.1,0.1,0.1,0.1"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   x:Name="imageMichael"
+                   Source="StarSignApp.NewFolder.michael.jpg"/>
+
+                <Label Text="&#10; Some Famous Figures who are Virgo's include Michael Jackson, Warren Buffet, Roald Dahl and Leo Tolstoy &#10;"                
+                XAlign="Center"
+                TextColor="White"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

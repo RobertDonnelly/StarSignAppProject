@@ -4,25 +4,50 @@
              x:Class="StarSignApp.Gemini"
              BackgroundColor="Aqua">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
-            <Label Text="Gemini &#10; May 21 – June 21"
+                <Label Text="Gemini &#10; May 21 – June 21"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 XAlign="Center"
                 FontSize = "30"/>
-            <Image Margin="0.1,0.1,0.1,0.1"
+
+                <Image Margin="0.1,0.1,0.1,0.1"
                    WidthRequest="200"
                    HeightRequest="200"
                    x:Name="imageGemini"
                    Source="StarSignApp.NewFolder.gemini.jpg"/>
+            
             <Label Text="Air sign: ruled by Mercury &#10; 
 Cerebral, chatty, loves learning and education, charming, and adventurous.
-                   &#10;
                    &#10;
                    &#10;"
              HorizontalOptions="Center"
              VerticalOptions="Center"
              XAlign="Center"/>
-        </StackLayout>
+            
+                <Label Text="Energetic and quick-witted, Gemini never gets stuck in the past and doesn't ruminate on what might have been. &#10;
+                 Instead, they move forward with glass-half-full optimism and an ability to always look on the bright side—and land on their feet—in nearly any situation. &#10; 
+                 With a mind that's constantly racing, even when they're just quietly hanging out, the Twins never get bored. &#10;
+                 In fact, Gemini are happy keeping their own company, and can often turn their solitary daydreams into reality. &#10;
+                 Despite their unfair rep for being two-faced, once a Gemini is in your life, &#10;
+                 they're loyal for life—but they aren't afraid to voice their opinion if they feel you're doing something they disagree with or if they perceive you as not being loyal to them. &#10;
+                 Always a sign to see all sides of the situation, Gemini may seek input from friends before going to the root of the problem. &#10;"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   XAlign="Center"/>
+
+                <Image Margin="0.1,0.1,0.1,0.1"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   x:Name="imageYeezy"
+                   Source="StarSignApp.NewFolder.yezzy.jpg"/>
+
+                <Label Text="&#10; Some well know Gemini's include Kanye West , Johnny Depp, Donald Trump and Clint Eastwood &#10;"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   XAlign="Center"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

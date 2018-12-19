@@ -5,43 +5,51 @@
              BackgroundColor="Gold">
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout>
+            <StackLayout>
+            
             <Label Text="Aries &#10; March 20 – April 20"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 XAlign="Center"
                 FontSize = "30"/>
+            
             <Image Margin="0.1,0.1,0.1,0.1"
                    WidthRequest="200"
                    HeightRequest="200"
                    x:Name="imageAries"
                    Source="StarSignApp.NewFolder.aries.png"/>
+            
             <Label Text="Fire sign; ruled by Mars. &#10;
 Courageous, energetic, willful, commanding, leading. &#10; Often leads when following would be best course of action.
                    &#10;
-                   &#10;
-                   &#10;"
+                   &#10; "
              HorizontalOptions="Center"
              VerticalOptions="Center"
              XAlign="Center"/>
+            
                 <Label Text="The very first Sign of the Zodiac is Aries. And, much on the same lines,  the ones born under this Sign consider themselves as the first. &#10;
-                   Aries are known for their fiery zeal and exuberance. Most impressive are their leadership qualities and optimism. Most Aries have a burning desire to start things off,  &#10;
-                   and make things happen. Individuals born under the Sign Aries are also known to be pioneers of the Zodiac,  &#10;
-                   and many a times it's their brave journey into the untrodden path that helps them emerge victorious. &#10;
-                   &#10;
-                   Aries individuals also exhibit energy and dynamism, and with their innate charisma, &#10;
-                   they are often able to convince and lead people effortlessly. &#10;
-                   The Zodiac Sign Aries is found to be compatible with the Signs Sagittarius, Leo, Aquarius and Gemini &#10;
-                   (Leo is the best suited among others, as a partner for Aries). In relationships, it is often found that the Aries mate is a loving and loyal one. "                    
-                  XAlign="Center"
-                TextColor="Black"/>
+                 Aries are known for their fiery zeal and exuberance. Most impressive are their leadership qualities and optimism. Most Aries have a burning desire to start things off,  &#10;
+                 and make things happen. Individuals born under the Sign Aries are also known to be pioneers of the Zodiac,  &#10;
+                 and many a times it's their brave journey into the untrodden path that helps them emerge victorious. &#10;
+                 &#10;
+                 Aries individuals also exhibit energy and dynamism, and with their innate charisma, &#10;
+                 they are often able to convince and lead people effortlessly. &#10;
+                 The Zodiac Sign Aries is found to be compatible with the Signs Sagittarius, Leo, Aquarius and Gemini &#10;
+                 (Leo is the best suited among others, as a partner for Aries). In relationships, it is often found that the Aries mate is loving and loyal. &#10;"                    
+                 XAlign="Center"
+                 VerticalOptions="Center"
+                 HorizontalOptions="Center"
+                 TextColor="Black"/>
+            
                 <Image Margin="1,1,1,1"
                    WidthRequest="200"
                    HeightRequest="200"
                    x:Name="imageVinci"
                    Source="StarSignApp.NewFolder.davinci.jpg"/>
-                <Label Text=" Some Well known Figures who are Aries include Leonardo DaVinci, Elton John, Vincent Van Gogh, Jackie Chan and Akon. &#10;"
+            
+                <Label Text="&#10; Some Well known Figures who are Aries include Leonardo DaVinci, Elton John, Vincent Van Gogh, Jackie Chan and Akon. &#10;"
                     XAlign="Center"/>
+            
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

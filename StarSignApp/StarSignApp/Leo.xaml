@@ -4,6 +4,7 @@
              x:Class="StarSignApp.Leo"
              BackgroundColor="RosyBrown">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
             <Label Text="Leo &#10; July 22 – August 23"
                 VerticalOptions="Start" 
@@ -16,10 +17,42 @@
                    x:Name="imageLeo"
                    Source="StarSignApp.NewFolder.leo.jpg"/>
             <Label Text="Fire sign: ruled by the Sun.  &#10;
-Generous, organized, protective, beautiful."
+Generous, organized, protective, beautiful.
+                   &#10;
+                   &#10;
+                   &#10;
+             Chief among the traits of a Leo is their fierce need for self-expression. &#10;
+             A Leo has a strong personality and a desire to take the stage (both literally and proverbially). &#10;
+             They are proud and will wear their heart on their sleeve, but can often get swept away in personal theatrics. &#10; 
+             A Leo can upstage others, forgetting that each and every person is a valuable member to a team. &#10;
+             Yet, a Leo's flair for powerful leadership can also let everyone have their spot in the sunshine. &#10;
+             Leo is the sign of the hopeless romantic. As the zodiac's fifth sign, Leo loves to be the center of attention. &#10;
+             &#10;
+             Positive Leo astrology traits include being courageous, kind, generous, loyal, protective, nakedly honest and entertaining. &#10;
+             They're not afraid to let their true essence shine in the Sun, which is also their planetary ruler. &#10;
+             Leo energy leaves others feeling awakened and revitalized in an empowering way. &#10;
+             &#10;
+             Difficult traits of the Leo sign include being greedy, sloppy, coldhearted, jealous, aggressive and vain. &#10;
+             Leo is a loyal fixed sign and an extroverted fire sign. But as the fifth sign of the zodiac, Leo can also be overbearing. &#10;
+             Leo may have a tendency to step on some toes and get a little overzealous, even pissing people off with their bossy demeanor. &#10;
+             But they are also natural born leaders who take extreme pride in their talents and beliefs. &#10;"
              HorizontalOptions="Center"
              VerticalOptions="Center"
              XAlign="Center"/>
-        </StackLayout>
+
+                <Image Margin="0.1,0.1,0.1,0.1"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   x:Name="imageObama"
+                   Source="StarSignApp.NewFolder.obama.jpg"/>
+
+                <Label Text="&#10; Some Important figures who are Leo's include Barack Obama, Alfred Hitchcock, Carl Jung and Roger Federer &#10;"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       XAlign="Center"/>
+
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

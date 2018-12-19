@@ -4,8 +4,9 @@
              x:Class="StarSignApp.Libra"
              BackgroundColor="DarkKhaki">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
-            <Label Text="Libra &#10; September 23 – October 23"
+            <Label Text="Libra&#10;September 23 – October 23"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 XAlign="Center"
@@ -15,11 +16,54 @@
                    HeightRequest="200"
                    x:Name="imageLibra"
                    Source="StarSignApp.NewFolder.libra.jpg"/>
+            
             <Label Text="Air sign: ruled by Venus. &#10;
-Balanced, seeks beauty, sense of justice."
+Balanced, seeks beauty, sense of justice.
+                   &#10;
+                   &#10;
+                   &#10;
+             Intelligent, kind, and always willing to put others before themselves, Libras value harmony in all forms. &#10;
+             Ruled by Venus, the planet of beauty, Libra adores a life that looks good. As the master of compromise and diplomacy, &#10;
+             Libra is adept at seeing all points of view, and excels at crafting compromises and effecting mediation between others. &#10;
+             This sign has a rich inner life yet loves other people, and they're always happiest with a large group of friends, &#10;
+             family, and coworkers on whom they can count. &#10;
+             &#10;
+             An air sign, Libra can often be 'up in the clouds', and while he or she is amazing at making big plans, &#10;
+             follow through can be tricky. Working with detail-oriented signs, like Virgos or Capricorns, &#10;
+             can help Libras actually manifest their dreams into reality, especially in the workspace. &#10;
+             But don't call out Librans for daydreaming—their imagination is one of their biggest assets, &#10;
+             and they often put their imagination to work by finding careers in the arts or in literature. &#10;
+             &#10;
+             Libras believe that they're directing their own lives, and they take a big-picture approach in making that life look and feel the best it can be. &#10;
+             They spend a lot of time figuring out what's missing from that big picture, and they may feel unhappy if they become too focused on one thing, &#10;
+             whether it's work, a partner, or a family member. Librans are at their best when they balance their schedule to include plenty of time for self-care rituals and personal pursuits, &#10;
+             and when they give themselves enough flexibility to change focus. &#10;
+             &#10;
+             When Libra falls in love, he or she falls hard, but this sign also recognizes that there's room for more than one grand love in his or her life. &#10;
+             The Scales are pragmatic about love, realizing that different relationships often have different seasons. &#10;
+             Librans can sometimes be accused of being too pragmatic, and they've been known to call off a relationship pre-emptively if they feel it may not work due to distance, &#10;
+             age difference, or another external conflict. &#10;
+             &#10;
+             Although Libra appears self-confident to outsiders, he or she might struggle with insecurity, especially as it relates to personal identity, &#10;
+             which sometimes feels mutable. This sign's lifelong question is: 'Who am I?' &#10;
+             They may find their identity shifting based on where they are in their lives and who they're spending time with. &#10;
+             In order to feel more confident in their identity, social Libras need to get comfortable spending time with themselves and getting to know their gut and their internal voice. &#10;"
              HorizontalOptions="Center"
              VerticalOptions="Center"
              XAlign="Center"/>
-        </StackLayout>
+
+                <Image Margin="0.1,0.1,0.1,0.1"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   x:Name="imagePutin"
+                   Source="StarSignApp.NewFolder.putin.jpeg"/>
+
+                <Label Text="&#10; Some prominent People who are Libra's include Vladamir Putin, Will Smith, Oscar Wilde and Eminem.&#10;"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   XAlign="Center"/>
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

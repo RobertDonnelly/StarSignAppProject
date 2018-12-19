@@ -4,22 +4,56 @@
              x:Class="StarSignApp.Scorpio"
              BackgroundColor="Violet">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
-            <Label Text="Scorpio &#10; October 23 – November 22"
+            
+            <Label Text="Scorpio &#10; 
+             October 23 – November 22"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 XAlign="Center"
                 FontSize = "30"/>
+            
             <Image Margin="0.1,0.1,0.1,0.1"
                    WidthRequest="200"
                    HeightRequest="200"
                    x:Name="imageScorpio"
                    Source="StarSignApp.NewFolder.scorpio.png"/>
+            
             <Label Text="Water sign: ruled by Pluto &#10;
-Passionate, exacting, loves extremes, combative, reflective."
+Passionate, exacting, loves extremes, combative, reflective.
+                   &#10;
+                   &#10;
+             The Scorpio's symbol is the Scorpion, and that is no accident. Much like the Scorpion would rather kill itself than be killed, &#10;
+             those born under this sign are in ultimate control of their destiny. &#10;
+             It is life on the Scorpion's terms, too, since these folks promote their agenda and see to it that things go forward. &#10;
+             Others may find this overbearing (it can be) and even self-destructive, &#10;
+             but that's the beauty of the Scorpio sign: They have tremendous regenerative powers, &#10;
+             much like the literal Scorpion can lose its tail and promptly grow a new one. &#10;
+                   &#10;
+             Scorpions don't miss much, since they are highly attuned to the vibrations of others. &#10;
+             They are intuitive, probing and very focused on knowing who's who and what's what. &#10;
+             Scorpios can lose their temper (and even become vengeful) when someone gets in their way, &#10;
+             so it's best to give them plenty of room. Remember, &#10;
+             they're unafraid, and a loss today simply means an opportunity for victory tomorrow.&#10;
+                  &#10;
+             Finally, while Scorpios aren't above some subtle manipulation to get what they want, &#10;
+             they'd much rather take a scientific, even mystical path. &#10;
+             The Scorpio personality is powerful and passionate, traits that serve them well, &#10;
+             as long as they don't let them deteriorate into self-indulgence or compulsion.&#10;"
              HorizontalOptions="Center"
              VerticalOptions="Center"
              XAlign="Center"/>
-        </StackLayout>
+
+                <Image Margin="0.1,0.1,0.1,0.1"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   x:Name="imageGates"
+                   Source="StarSignApp.NewFolder.bgates.jpg"/>
+
+                <Label Text="&#10; Some Well known Figures who are Scorpio's are Bill Gates, Leonardo DiCaprio, Pablo Picasso and Christopher Columbus. &#10;"
+                    XAlign="Center"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

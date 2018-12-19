@@ -4,22 +4,55 @@
              x:Class="StarSignApp.Sagittarius"
              BackgroundColor="DarkSlateBlue">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
             <Label Text="Sagittarius &#10; November 22 – December 21"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 XAlign="Center"
-                FontSize = "30"/>
+                FontSize = "30"
+                TextColor="LightSalmon"/>
+            
             <Image Margin="0.1,0.1,0.1,0.1"
                    WidthRequest="200"
                    HeightRequest="200"
                    x:Name="imageSagittarius"
                    Source="StarSignApp.NewFolder.sagittarius.jpg"/>
+            
             <Label Text="Fire sign: ruled by Jupiter. &#10;
-Happy, absent minded, creative, adventurous."
+Happy, absent minded, creative, adventurous.&#10;
+                   &#10;
+                   &#10;
+             Sagittarians crave the freedom of the open road, both metaphorically and physically. &#10; 
+             They are most unhappy when they are tied to a normal routine &#10;
+             and can become restless in situations where there is not enough variety involved. &#10; 
+             Because they travel so much and are eager to experience new things, &#10;
+             those of this sign are fun to be around and often have large numbers of friends. &#10;
+             They question everything and think that everyone should do the same. &#10;
+             &#10;
+             Sagittarius is open-hearted, generous, and big-spirited, but Sagittarius is always truthful. &#10;
+             Because of this, they may hurt others' feelings, or may be called out for not having tact or empathy. &#10;
+             The latter is not true. With their keen imagination, &#10;
+             Sagittarius is adept at putting themselves in another person's shoes—that's why so many &#10;
+             are successful actors—but they do not feel the need to beat around the bush or lie. &#10;
+             You can trust a Sagittarius to tell you what they really think. You can also trust a Sagittarius, period. &#10;
+             Unlike other signs, they won't spill any secrets.&#10;"
              HorizontalOptions="Center"
              VerticalOptions="Center"
-             XAlign="Center"/>
-        </StackLayout>
+             XAlign="Center"
+             TextColor="LightSalmon"/>
+
+                <Image Margin="0.1,0.1,0.1,0.1"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   x:Name="imageBruce"
+                   Source="StarSignApp.NewFolder.bruce.jpeg"/>
+
+                <Label Text="&#10;Some Famous Figures who are Saggitarius includes Bruce Lee, Frank Sinatra, Walt Disney and Nostradamus.&#10;"
+                   XAlign="Center"
+                   TextColor="LightSalmon"/>
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

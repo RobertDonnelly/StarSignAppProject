@@ -4,22 +4,53 @@
              x:Class="StarSignApp.Cancer"
              BackgroundColor="Purple">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
             <Label Text="Cancer &#10; June 21 – July 22"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 XAlign="Center"
-                FontSize = "30"/>
+                FontSize = "30"
+                TextColor="White"/>
+            
             <Image Margin="0.1,0.1,0.1,0.1"
                    WidthRequest="200"
                    HeightRequest="200"
                    x:Name="imageCancer"
                    Source="StarSignApp.NewFolder.cancer.jpg"/>
+            
             <Label Text="A water sign: ruled by the Moon.
-                   &#10; Emotional, group oriented, seeks security, family."
+                   &#10; Emotional, group oriented, seeks security, family.
+                   &#10;
+                   &#10;
+                   &#10;
+             Most Cancers have been called psychic at some point, and with good reason—Cancer can often intuit relationships, &#10;
+             ideas, and motivations before anyone has actually spoken. That can make for challenging interactions with this sign—Cancer hates small talk, &#10; 
+             especially when it contains white lies (like saying, 'How nice to see you!' when it's clear that both parties would rather avoid each other). &#10;
+             That's why social gatherings can be overwhelming for Cancers. They'd much rather spend time in small groups where everyone is on the same page.&#10;
+             &#10;
+             Cancer loves creating and needs some type of creative outlet, whether it's painting, writing, or even just reading. &#10;
+             Cancer also loves connecting to a higher power, and may find comfort in religion or spiritual practices. &#10;
+             Even though Crabs can be intense, they also have a funny side with a wry sense of humor, &#10;
+             and they're adept at observing and mimicking people around them. &#10;"
              HorizontalOptions="Center"
              VerticalOptions="Center"
-             XAlign="Center"/>
-        </StackLayout>
+             XAlign="Center"
+             TextColor="White"/>
+
+                <Image Margin="0.1,0.1,0.1,0.1"
+                WidthRequest="200"
+                HeightRequest="200"
+                x:Name="imageElon"
+                Source="StarSignApp.NewFolder.elon.jpg"/>
+
+                <Label Text="&#10; Some Famous people with the cancer star sign icnclude Elon Musk, Nikola Tesla, George Orwell and Tom Hanks. &#10;"
+                   XAlign="Center"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   TextColor="White"/>
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

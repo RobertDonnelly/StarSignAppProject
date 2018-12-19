@@ -16,7 +16,18 @@ namespace StarSignApp
 		{
 			InitializeComponent ();
             AddImagesToPage();
-		}
+            AddImage2ToPage();
+
+        }
+
+        private void AddImage2ToPage()
+        {
+            var assembly = typeof(MainPage);
+
+            string strFilename = "StarSignApp.NewFolder.zucc.jpg";
+            imageZucc.Source = ImageSource.FromResource(strFilename, assembly);
+        }
+
         private void AddImagesToPage()
         {
             var assembly = typeof(MainPage);

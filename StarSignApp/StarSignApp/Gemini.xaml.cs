@@ -16,7 +16,18 @@ namespace StarSignApp
 		{
 			InitializeComponent ();
             AddImagesToPage();
-		}
+            AddImage2ToPage();
+
+        }
+
+        private void AddImage2ToPage()
+        {
+            var assembly = typeof(MainPage);
+
+            string strFilename2 = "StarSignApp.NewFolder.yeezy.jpg";
+
+            imageYeezy.Source = ImageSource.FromResource(strFilename2, assembly);
+        }
 
         private void AddImagesToPage()
         {

@@ -17,7 +17,19 @@
     <None Remove="gemini.jpg" />
     <None Remove="leo.jpg" />
     <None Remove="libra.jpg" />
+    <None Remove="NewFolder\bgates.jpg" />
+    <None Remove="NewFolder\bruce.jpeg" />
+    <None Remove="NewFolder\davinci.jpg" />
+    <None Remove="NewFolder\einstein.jpg" />
+    <None Remove="NewFolder\elon.jpg" />
+    <None Remove="NewFolder\michael.jpg" />
+    <None Remove="NewFolder\obama.jpg" />
+    <None Remove="NewFolder\putin.jpeg" />
+    <None Remove="NewFolder\siuu.jpg" />
     <None Remove="NewFolder\stars.png" />
+    <None Remove="NewFolder\woods.jpg" />
+    <None Remove="NewFolder\yeezy.jpg" />
+    <None Remove="NewFolder\zucc.jpg" />
     <None Remove="pisces.jpg" />
     <None Remove="sagittarius.jpg" />
     <None Remove="scorpio.png" />
@@ -28,17 +40,29 @@
   <ItemGroup>
     <EmbeddedResource Include="NewFolder\aquarius.png" />
     <EmbeddedResource Include="NewFolder\aries.png" />
+    <EmbeddedResource Include="NewFolder\bgates.jpg" />
+    <EmbeddedResource Include="NewFolder\bruce.jpeg" />
     <EmbeddedResource Include="NewFolder\cancer.jpg" />
     <EmbeddedResource Include="NewFolder\capricorn.png" />
+    <EmbeddedResource Include="NewFolder\davinci.jpg" />
+    <EmbeddedResource Include="NewFolder\einstein.jpg" />
+    <EmbeddedResource Include="NewFolder\elon.jpg" />
     <EmbeddedResource Include="NewFolder\gemini.jpg" />
     <EmbeddedResource Include="NewFolder\leo.jpg" />
     <EmbeddedResource Include="NewFolder\libra.jpg" />
+    <EmbeddedResource Include="NewFolder\michael.jpg" />
+    <EmbeddedResource Include="NewFolder\obama.jpg" />
     <EmbeddedResource Include="NewFolder\pisces.jpg" />
+    <EmbeddedResource Include="NewFolder\putin.jpeg" />
     <EmbeddedResource Include="NewFolder\sagittarius.jpg" />
     <EmbeddedResource Include="NewFolder\scorpio.png" />
+    <EmbeddedResource Include="NewFolder\siuu.jpg" />
     <EmbeddedResource Include="NewFolder\stars.png" />
     <EmbeddedResource Include="NewFolder\taurus.jpg" />
     <EmbeddedResource Include="NewFolder\virgo.png" />
+    <EmbeddedResource Include="NewFolder\woods.jpg" />
+    <EmbeddedResource Include="NewFolder\yeezy.jpg" />
+    <EmbeddedResource Include="NewFolder\zucc.jpg" />
   </ItemGroup>
 
   <ItemGroup>
